@@ -24,10 +24,6 @@
   border-radius: 50%;
   background-color: cornflowerblue;
 }
-.fl_btn-secondary{
-  border-radius: 20px;
-  padding: 5px 15px;
-}
 .fa-magnifying-glass{
   padding-top: 8px;
   font-size: 20px;
@@ -35,14 +31,20 @@
 }
 
 /* JUMBOTRON */
-
-.fl_voice-menu{
-  font-size: 11px;
-  color: white;
-  cursor: pointer;
+.fl_jumbotron{
+  height: 600px;
+  background-image: url(../img/jumbo-bg.png);
+  background-position:center;
+  background-size: cover;
+  padding-top: 270px;
 }
 
-/* JUMBOTRON */
+.fl_jumbotron .container-fluid .row{
+}
+.fl_img_returnal-hero-banner{
+  width: 100%;
+}
+
 .fl_hamburger-menu{
   padding: 0px 7px;
   border: 1px solid grey;
@@ -150,6 +152,20 @@
 }
 
 /* ELEMENTS */
+.fl_btn{
+  border-radius: 20px;
+  padding: 5px 15px 8px 15px!important;
+}
+.fl_bnt-red{
+  background-color: red;
+  border-color: red;
+}
+
+
+
+
+
+
 .fl_bg-green{
   background-color: #1abc9c;
 }
