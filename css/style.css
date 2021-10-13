@@ -1,9 +1,41 @@
 /* HEADER */
-header{
-  background-color: #2C3D50;
-  color: white;
-  height: 60px;
+/* header-top */
+.fl_header-top{
+  background-color: black;
 }
+.fl_header-top img{
+  width: 100px;
+  padding-right: 10px;
+}
+/* header-bottom */
+.fl_header-bottom{
+  height: 80px;
+}
+.navbar .container-fluid img{
+  width: 50px;
+  margin-right: 20px;
+}
+.nav-link{
+  color: black!important;
+}
+.fl_point{
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background-color: cornflowerblue;
+}
+.fl_btn-secondary{
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+.fa-magnifying-glass{
+  padding-top: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* JUMBOTRON */
+
 .fl_voice-menu{
   font-size: 11px;
   color: white;
