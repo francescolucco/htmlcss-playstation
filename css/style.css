@@ -105,7 +105,32 @@
   background-color: rgba(22,28,59,255);
 }
 
+footer
+{
+  background-color: rgba(0,67,156,255);
+}
+.fl_img_sie-logo{
+  width: 140px;
+  text-align: left;
+  margin-left: 0;
+  padding-left: 0;
+}
+.fl_img_ps-footer{
+  width: 100px;
+}
+.fa-globe{
+  margin-right: 15px;
+  font-size: 20px;
+}
+.fl_ul_white li{
+  list-style: none;
+  margin: 20px 0;
 
+}
+.fl_ul_white li a{
+  text-decoration: none;
+  color: white;
+}
 
 
 
@@ -153,4 +178,5 @@ img{
 .fl_row{
   height: 80%;
 }
+
 
