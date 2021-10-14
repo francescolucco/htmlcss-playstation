@@ -31,14 +31,14 @@
 }
 
 /* JUMBOTRON */
-.fl_jumbotron-top, .fl_new-releases_top{
+.fl_jumbotron-top{
   height: 700px;
   background-image: url(../img/jumbo-bg.png);
   background-position:center;
   background-size: cover;
   padding-top: 270px;
 }
-.fl_img_returnal-hero-banner{
+.fl_img_returnal-hero-banner, .fl_img_ps-plus-logo{
   width: 100%;
 }
 .jumbotron-bottom .container .row .box{
@@ -95,6 +95,17 @@
   border-radius: 20px;
 }
 
+/* PLAYSTATION-PLUS */
+.fl_playstation-plus{
+  background-color: rgba(190,188,187,255);
+}
+
+/* PLAYSTATION-NOW */
+.fl_playstation-now{
+  background-color: rgba(22,28,59,255);
+}
+
+
 
 
 
@@ -117,7 +128,19 @@
   max-width: 200px;
 }
 .fl_btn-width-small{
-  max-width: 130px;}
+  max-width: 130px;
+}
+.fl_btn-outline-primary{
+  background-color: rgba(255,255,255,.28);
+  border: none;
+  color: blue;
+}
+.fl_btn-outline-dark{
+  background-color: white;
+  border: none;
+  width: 210px;
+  outline: 1px solid grey;
+}
 .fl_text-grey{
   color: grey;
 }
