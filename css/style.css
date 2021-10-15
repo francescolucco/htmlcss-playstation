@@ -119,10 +119,12 @@
   color: black;
 }
 .fl_box_list-prodact{
-  border-bottom: 2px solid white;
+  border-bottom: 4px solid white;
+  opacity: 70%;
 }
 .fl_box_list-prodact:hover{
-  border-bottom: 2px solid rgb(28, 165, 245);
+  border-bottom: 4px solid rgb(3, 128, 200);
+  opacity: 100%;
 }
 
 /* NUOVE USCITE */
@@ -143,6 +145,7 @@
 .fl_new-releases_bottom .container .row div img{
   border-radius: 20px;
   transition: 1s;
+  margin-bottom: 10px;
 }
 .fl_new-releases_bottom .container .row div img:hover{
   transform: scale(1.05);
