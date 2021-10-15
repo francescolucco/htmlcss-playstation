@@ -29,6 +29,21 @@
   font-size: 20px;
   cursor: pointer;
 }
+.nav-link{
+  font-weight: 600;
+}
+.nav-link:hover{
+  color: blue!important;
+}
+.dropdown-toggle::after {
+  display: none;
+}
+.fa-angle-down{
+  color: grey;
+}
+.nav-link:hover .fa-angle-down{
+  color: blue;
+}
 
 /* JUMBOTRON */
 .fl_jumbotron-top{
@@ -41,20 +56,25 @@
 .fl_img_returnal-hero-banner, .fl_img_ps-plus-logo{
   width: 100%;
 }
+.fl_jabotron-botton-hover:hover{
+  transform: translate(0, -10%);
+  transition: 2s;
+  opacity: 100%!important;
+}
 .jumbotron-bottom .container .row .box{
   padding: 2px;
   border-radius: 20px;
   overflow: hidden;
   width: 100%;
 }
-.jumbotron-bottom .container .row .box:hover{
-  border: 2px solid blue;
-  padding: 2px 4px;
-}
 .jumbotron-bottom .container .row .box img{
   width: 100%;
   border-radius: 20px;
+  padding: 3px;
+  transition: 1s;
+  z-index: 400;
 }
+
 
 /* PRESENTAZIONE PRODOTTO */
 .fl_box_presentaction-product h6{
@@ -94,10 +114,27 @@
 .fl_new-releases_bottom .container .row div img{
   border-radius: 20px;
 }
+.fl_new-releases_top .container .row:hover{
+  animation: movimento-up 1.5s linear;
+}
+@keyframes movimento-up{
+    0%{
+      transform: translateY(15px);
+    }
+    0%{
+      opacity: calc(0);
+    }
+    100%{
+      opacity: calc(1);
+    }
+}
 
 /* PLAYSTATION-PLUS */
 .fl_playstation-plus{
   background-color: rgba(190,188,187,255);
+}
+.fl_img_ps-plus-logo{
+  width: 70%;
 }
 
 /* PLAYSTATION-NOW */
@@ -141,16 +178,24 @@ footer
   border-radius: 20px;
   padding: 5px 15px 8px 15px!important;
 }
-.fl_bnt-red{
-  background-color: red;
-  border-color: red;
+.fl_btn-over{
+    padding: 5px 15px 8px 15px!important;
+    color: white;
+}
+.fl_btn-span-over:hover{
+  border: 2px solid white;
 }
 .fl_bnt-red{
   background-color: red;
   border-color: red;
 }
+/* .fl_bnt-red:hover{
+  background-color: red;
+  border: 4px solid white;
+  outline: 2px solid red;
+} */
 .fl_btn-width{
-  max-width: 200px;
+  max-width: 240px;
 }
 .fl_btn-width-small{
   max-width: 130px;
@@ -166,6 +211,13 @@ footer
   width: 210px;
   outline: 1px solid grey;
 }
+.fl_btn-outline-dark:hover{
+  outline: 1px solid grey;
+}
+.fl_outline-blue:hover{
+  box-shadow: 0 0 0 2px blue!important;
+  outline: none;
+}
 .fl_text-grey{
   color: grey;
 }
@@ -178,5 +230,4 @@ img{
 .fl_row{
   height: 80%;
 }
-
 
