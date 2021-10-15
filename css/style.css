@@ -56,23 +56,48 @@
 .fl_img_returnal-hero-banner, .fl_img_ps-plus-logo{
   width: 100%;
 }
+.fl_jumbotron-top .container .row{
+  animation: movimento-up 1.5s linear;
+}
+@keyframes movimento-up{
+    0%{
+      transform: translateY(15px);
+    }
+    0%{
+      opacity: calc(0);
+    }
+    100%{
+      opacity: calc(1);
+    }
+}
 .fl_jabotron-botton-hover:hover{
   transform: translate(0, -10%);
-  transition: 2s;
+  transition: 1s;
   opacity: 100%!important;
+
 }
 .jumbotron-bottom .container .row .box{
-  padding: 2px;
+  padding: 0px;
   border-radius: 20px;
   overflow: hidden;
   width: 100%;
+  cursor: pointer;
+
+}
+.jumbotron-bottom .container .row .box:hover{
+  box-shadow: 5px 10px 10px #aaaaaa;
+
 }
 .jumbotron-bottom .container .row .box img{
   width: 100%;
   border-radius: 20px;
-  padding: 3px;
-  transition: 1s;
-  z-index: 400;
+  box-shadow: 10px 10px 15px #aaaaaa;
+}
+.fl_img-padding{
+  padding: 2px;
+}
+.fl_box-outline{
+  outline: 2px solid blue;
 }
 
 
@@ -84,6 +109,7 @@
 /* <!-- lista prodotti --> */
 .fl_box_list-prodact{
   height: 100%;
+  cursor: pointer;
 }
 .fl_box_list-prodact img{
   width: 80%;
@@ -91,6 +117,9 @@
 }
 .fl_box_list-prodact:hover .fl_p-active{
   color: black;
+}
+.fl_box_list-prodact{
+  border-bottom: 2px solid white;
 }
 .fl_box_list-prodact:hover{
   border-bottom: 2px solid rgb(28, 165, 245);
@@ -113,6 +142,11 @@
 }
 .fl_new-releases_bottom .container .row div img{
   border-radius: 20px;
+  transition: 1s;
+}
+.fl_new-releases_bottom .container .row div img:hover{
+  transform: scale(1.05);
+  cursor: pointer;
 }
 .fl_new-releases_top .container .row:hover{
   animation: movimento-up 1.5s linear;
@@ -128,6 +162,9 @@
       opacity: calc(1);
     }
 }
+.fl_presentaction-ps4 .container .row div img{
+  cursor: pointer;
+}
 
 /* PLAYSTATION-PLUS */
 .fl_playstation-plus{
@@ -137,9 +174,31 @@
   width: 70%;
 }
 
+/* PLAYSTATION-STORE */
+.fl_playstation-store .container .row div img{
+  transition: 1s;
+  border-radius: 35px;
+}
+.fl_playstation-store .container .row div img:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 10px 10px 15px #aaaaaa;
+}
+
 /* PLAYSTATION-NOW */
 .fl_playstation-now{
   background-color: rgba(22,28,59,255);
+}
+
+/* FOLLOW SOCIAL */
+.fl_follow-social .container .row div .row div .row div img{
+  transition: 1s;
+  border-radius: 25px;
+}
+.fl_follow-social .container .row div .row div .row div img:hover{
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 10px 10px 15px #aaaaaa;
 }
 
 footer
