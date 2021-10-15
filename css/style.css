@@ -18,11 +18,32 @@
 .nav-link{
   color: black!important;
 }
+.fl_container-fa-point{
+  height: 30px;
+}
 .fl_point{
-  width: 2px;
-  height: 2px;
+  width: 4px;
+  height: 4px;
   border-radius: 50%;
   background-color: cornflowerblue;
+  margin-right: 7px;
+}
+.fl_drop-down-sub-link ul{
+  padding-inline-start: 0px!important;
+}
+.fl_drop-down-sub-link ul li{
+  list-style: none;
+  cursor: pointer;
+}
+.fl_drop-down-sub-link ul li a{
+  margin-left: 5px;
+  margin-right: 5px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.fl_drop-down-sub-link ul li a:hover{
+  color: blue;
 }
 .fa-magnifying-glass{
   padding-top: 8px;
@@ -44,6 +65,15 @@
 .nav-link:hover .fa-angle-down{
   color: blue;
 }
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+  position: absolute;
+  top: 76px;
+  left: 2px;
+}
+.nav { margin-bottom: 0; }
+.dropdown { position: static; }
+.dropdown-menu { width: 100%; text-align: center; }
+
 
 /* JUMBOTRON */
 .fl_jumbotron-top{
